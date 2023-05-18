@@ -1,3 +1,4 @@
+// Start - main skills section tab while responsive
 const contents = document.getElementsByClassName("skills-content");
 const links = document.getElementsByClassName("skills-link");
 
@@ -12,3 +13,14 @@ function showContent(tabName){
     }
     event.currentTarget.classList.add("active-link");
 }
+// End - main skills section tab while responsive
+
+
+// Start - footer svg hover
+function hover(){    
+    event.currentTarget.classList.add("footer-svg");
+}
+function noHover(){
+    event.currentTarget.classList.remove("footer-svg");
+}
+// End - footer svg hover
