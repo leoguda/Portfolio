@@ -1,0 +1,177 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    justify-content: center;
+    background-color: #cbccce;
+}
+header > div{
+    max-height: 870px;
+}
+header > div img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 1em black, 0 0 0.9em black;
+}
+header > div nav {
+    position:fixed;
+    top: 2em;
+    left: 2em;
+}
+.nav-li{
+    list-style:square;
+    padding: 0.5em 0;
+}
+.nav-li a{
+    color: black;
+    font-size: 1.2em;
+    text-decoration:none;
+}
+
+/*  */
+/*  */
+/*  */
+
+/* Start - about me */
+main .about-me{
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    padding: 8em 0;
+}
+.about-me-div1, .about-me-div2{
+    max-width: 40em;
+    height: 13em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em;
+}
+
+/* End - about me */
+
+/* Start - skill */
+.skills{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 12em 0;
+    gap: 5em;
+}
+.skills-div1{
+    max-width: 50em;
+    padding: 1em;
+    text-align: center;
+}
+.skills-div1-child{
+    display: none;
+    margin-top: 2em;
+    background-color: whitesmoke;
+}
+.skills-div1 h2 {
+    margin-bottom: 1em;
+}
+.skills-div2-child1,.skills-div2-child2{
+    max-width: 40em;
+    border: 1px solid darkslategray;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: whitesmoke;
+    box-shadow:inset 0 0 0.3em gray;
+}
+.skills-div2-child2{
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+.skills-div2{
+    gap: 2em;
+}
+
+.skills-div2-child2-icons img{
+    margin:-1.5em;
+    transform: scale(0.5);
+}
+/* End - skill */
+
+/* Start - projects */
+.projects {
+    flex-direction: column;
+    align-items: center;
+    padding: 4em 0;
+    gap: 2em;
+    background-color: whitesmoke;
+}
+.projects-div2, .projects-div3{
+    overflow: hidden;
+}
+.projects-div2-child img, .projects-div3-child img{
+    max-width: 1100px;
+    width: 100%;
+    transition: transform 200ms;
+}
+.projects-div2-child img:hover, .projects-div3-child img:hover{
+    transform: scale(1.05);
+}
+.projects-div1{
+    text-align: center;
+    max-width: 50em;
+}
+/* End - projects */
+
+
+/* Start - contacts */
+
+.contact{
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+    padding: 5em 0;
+    /* background-color: rebeccapurple; */
+}
+.contact-div1{
+    max-width: 30em;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.contact-div2-form{
+    flex-direction: column;
+    gap: 1em;
+}
+
+.contact-div2-form-item{
+    width: 55em;
+}
+.contact-div2-form input{
+    padding: 1em;
+}
+.contact-div2-form textarea{
+    padding: 3em 1em;
+    resize: vertical;
+}
+.contact-div2-form button{
+    padding: 1em;
+    background-color: darkseagreen;
+}
+
+/* End - contacts */
+
+
+/* h
+#24262a
+p
+#4d5055 */
+.display{
+    display: flex;
+}
