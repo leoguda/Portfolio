@@ -18,7 +18,6 @@
     }
     .nav-li a{
         background-color: rgba(212, 212, 212, 0.959);
-        padding: 0.05em 0;
     }
     .nav-li a:hover{
         text-decoration:underline;
@@ -44,6 +43,15 @@
     }
 }
 @media only screen and (max-width:950px){
+    .burger-menu-close{
+        padding-top: 0.5em;
+    }
+    .nav-li{
+        margin:  -1em 0;
+    }
+    main .about-me{
+        padding: 8em 0 2em 0;
+    }
     .projects-div2-child img, .projects-div3-child img{
         max-width: 700px;
     }
@@ -60,11 +68,14 @@
     }
 }
 @media only screen and (max-width:650px){
+    main * {
+        text-align: center;
+    }
     .burger-menu-open{
         background-color: rgb(28, 194, 28);
     }
     main .about-me{
-        padding: 4em 0 2em 0;
+        padding: 8em 0 2em 0;
     }
     .skills-div1-child{
         display: block;
@@ -85,8 +96,11 @@
     }
 }
 @media only screen and (max-width:550px){
+    .nav-responsive{
+        top: 0.5em;
+    }
     main .about-me{
-        margin-top: -2em;
+        padding: 8em 0 2em 0;
     }
     .nav-1920{
         font-size: 0.7em;
@@ -122,7 +136,7 @@
         width: 5.5em;
     }
     main .about-me{
-        padding: 6em 0 2em 0;
+        padding: 8em 0 2em 0;
     }
     .skills-div2-child1,.skills-div2-child2{
         height: 17.5em;
@@ -133,5 +147,8 @@
     }
     .contact-div2-form-item{
         width: 15em;
+    }
+    .contact-div2-form input{
+        padding: 0.2em;
     }
 }
