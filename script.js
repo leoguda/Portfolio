@@ -1,3 +1,19 @@
+// Start - responsive nav
+const navUl = document.querySelector(".nav-responsive-ul");
+const open = document.querySelector(".burger-menu-open");
+const close = document.querySelector(".burger-menu-close");
+
+function openBurgerMenu(){
+    navUl.style.transform = 'translateY(0px)';
+    event.currentTarget.style.display="none";
+}
+function closeBurgerMenu(){
+    navUl.style.transform = 'translateY(-250px)'
+    open.style.display="block";
+}
+// End - responsive nav
+
+
 // Start - main skills section tab while responsive
 const contents = document.getElementsByClassName("skills-content");
 const links = document.getElementsByClassName("skills-link");

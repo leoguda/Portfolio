@@ -11,18 +11,18 @@
     <script src="https://kit.fontawesome.com/607204e404.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
+    
     <header class="display">
         <div>
-            <img src="media/landscape2.jpg" alt="header background">
+            <img class="nav-background" src="media/landscape1.jpg" alt="header background">
             <nav>
-                <ul>
-                    <li class="nav-li"><a href="#about-me">levan gudavadze</a></li>
-                    <li class="nav-li"><a href="#skills">skills</a></li>
-                    <li class="nav-li"><a href="#projects">projects</a></li>
-                    <li class="nav-li"><a href="#contact">contact</a></li>
+                
+                <ul class="nav-1920">
+                    <li class="nav-li-1920"><a href="#about-me">levan gudavadze</a></li>
+                    <li class="nav-li-1920"><a href="#skills">skills</a></li>
+                    <li class="nav-li-1920"><a href="#projects">projects</a></li>
+                    <li class="nav-li-1920"><a href="#contact">contact</a></li>
                 </ul>
-
             </nav>
         </div>
     </header>
@@ -30,6 +30,17 @@
 
     
     <main>
+        <div class="nav-responsive">
+            <img class="burger-menu-open" src="media/bar-24px.png" alt="menu" onclick="openBurgerMenu()">
+            <ul class="nav-responsive-ul">
+                <li class="nav-li"><a href="#about-me">levan gudavadze</a></li>
+                <li class="nav-li"><a href="#skills">skills</a></li>
+                <li class="nav-li"><a href="#projects">projects</a></li>
+                <li class="nav-li"><a href="#contact">contact</a></li>
+                <img class="burger-menu-close" src="media/close-24px.png" alt="menu" onclick="closeBurgerMenu()"">
+
+            </ul>
+        </div>
         <div id="about-me" class="about-me display">
             <div class="about-me-div1 display">
                 <h2>Hello I'm Levan,</h2>

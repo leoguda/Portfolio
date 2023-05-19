@@ -1,13 +1,7 @@
 @media only screen and (max-width:1920px){
-    nav{
-        background-color: rgba(0, 0, 0, 0.288);
+    .nav-1920{
+        font-size: 1.5em;
     }
-    .nav-li a{
-        padding: 0.5em;
-        color: white;
-    }
-}
-@media only screen and (max-width:1300px){
     .skills-div2{
         flex-direction: column;
     }
@@ -16,7 +10,27 @@
     }
 }
 
+@media only screen and (max-width:1300px){
+    .skills-div2{
+        flex-direction: column;
+    }
+    .about-me-div1, .about-me-div2{
+        max-width: 30em;        
+    }
+    .nav-li a{
+        color: rgb(143, 92, 15);
+        background-color: rgba(212, 212, 212, 0.959);
+    }
+    .nav-li a:hover{
+        text-decoration:underline;
+        font-weight: bold;
+    }
+}
+
 @media only screen and (max-width:1150px){
+    .nav-1920{
+        font-size: 1.2em;
+    }
     main .about-me{
         flex-direction: column;
         padding: 2em 0;
@@ -39,20 +53,23 @@
 }
 
 @media only screen and (max-width:750px){
+    .nav-1920{
+        font-size: 1em;
+    }
     .projects-div2-child img, .projects-div3-child img{
         max-width: 500px;
     }
-
     .contact-div2-form-item{
         width: 35em;
     }
 }
 
 @media only screen and (max-width:650px){
-    header > div nav {
-        top: 0.2em;
-        left: 0.2em;
-        transform: scale(0.7);
+    .burger-menu-open{
+        background-color: rgb(205, 247, 205);
+    }
+    main .about-me{
+        padding: 4em 0 2em 0;
     }
     .skills-div1-child{
         display: block;
@@ -74,6 +91,12 @@
 }
 
 @media only screen and (max-width:550px){
+    .nav-1920{
+        font-size: 0.7em;
+    }
+    .nav-responsive{
+        width: 8em;
+    }
     .skills-div2-child1,.skills-div2-child2{
         height: 15em;
     }
@@ -90,17 +113,30 @@
         display: flex;
         flex-direction: column;
     }
-    
 }
 @media only screen and (max-width:350px){
     *{
         font-size: 0.95em;
     }
+    
     main{
         padding: 1em 0;
     }
+    .nav-responsive{
+        width: 5.5em;
+    }
+    .burger-menu-open{
+        background-color: lightgreen;
+    }
+    main .about-me{
+        padding: 6em 0 2em 0;
+    }
     .skills-div2-child1,.skills-div2-child2{
         height: 17.5em;
+    }
+    .skills-div2-child2-icons img{
+        margin: 0 -3em;
+        transform: scale(0.3);
     }
     .contact-div2-form-item{
         width: 15em;
