@@ -71,6 +71,33 @@ main *{
     line-height: 1.3em;
 }
 
+/* Start - Secateur*/
+.main-secateur{
+    height: 1em;
+    background-color: rgb(100, 98, 98);
+    background-image: 
+    linear-gradient(-45deg, transparent 75%, whitesmoke 75%),
+    linear-gradient(45deg, transparent 75%, whitesmoke 75%),
+    linear-gradient(-135deg, transparent 75%, whitesmoke 75%),
+    linear-gradient(135deg, transparent 75%, whitesmoke 75%); 
+    background-size: 6em 6em;
+    background-position: 6em 0, 6em 0, 0 0, 0 0;
+       
+}
+.main-secateur1{
+    transform: rotate(180deg);
+}
+.main-secateur2{
+    transform: rotate(180deg);
+    background-color: white;
+    background-image: 
+    linear-gradient(-45deg, transparent 75%, #343a40 75%),
+    linear-gradient(45deg, transparent 75%, #343a40 75%),
+    linear-gradient(-135deg, transparent 75%, #343a40 75%),
+    linear-gradient(135deg, transparent 75%, #343a40 75%); 
+}
+/* End - Secateur*/
+
 /* Start - responsive navigation */
 .nav-responsive{
     position:sticky;
@@ -135,7 +162,7 @@ main .about-me{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    padding: 12em 0;
+    padding: 6em 0;
     gap: 5em;
 }
 .skills-div1{
@@ -151,6 +178,9 @@ main .about-me{
 .skills-div1 h2 {
     margin-bottom: 1em;
 }
+.skills-div2{
+    gap: 2em;
+}
 .skills-div2-child1,.skills-div2-child2{
     max-width: 40em;
     border: 1px solid darkslategray;
@@ -165,10 +195,6 @@ main .about-me{
     gap: 1em;
     padding: 1em;
 }
-.skills-div2{
-    gap: 2em;
-}
-
 .skills-div2-child2-icons img{
     margin:-1.5em;
     transform: scale(0.5);
@@ -179,7 +205,7 @@ main .about-me{
 .projects {
     flex-direction: column;
     align-items: center;
-    padding: 4em 0;
+    padding: 6em 0;
     gap: 2em;
     background-color: whitesmoke;
 }
@@ -208,7 +234,6 @@ main .about-me{
     align-items: center;
     gap: 3em;
     padding: 5em 0;
-    /* background-color: rebeccapurple; */
 }
 .contact-div1{
     max-width: 30em;
@@ -228,6 +253,11 @@ main .about-me{
 .contact-div2-form input{
     padding: 1em;
 }
+.contact-div2-form input:focus,
+.contact-div2-form textarea:focus{
+    outline-style:none;
+    padding-left: 2em;
+}
 .contact-div2-form textarea{
     padding: 3em 1em;
     resize: vertical;
@@ -235,6 +265,7 @@ main .about-me{
 .contact-div2-form button{
     padding: 1em;
     background-color: rgb(143, 24, 255);
+    border: none;
     border-radius: 1em;
     color: white;
     cursor: pointer;

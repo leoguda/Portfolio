@@ -66,6 +66,9 @@
     .contact-div2-form-item{
         width: 35em;
     }
+    .main-secateur, .main-secateur1, .main-secateur2{
+        display: none;
+    }
 }
 @media only screen and (max-width:650px){
     main * {
@@ -100,7 +103,7 @@
         top: 0.5em;
     }
     main .about-me{
-        padding: 8em 0 2em 0;
+        padding: 6em 0 2em 0;
     }
     .nav-1920{
         font-size: 0.7em;
@@ -149,6 +152,6 @@
         width: 15em;
     }
     .contact-div2-form input{
-        padding: 0.2em;
+        padding: 0.3em;
     }
 }
