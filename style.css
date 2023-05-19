@@ -158,8 +158,9 @@ main .about-me{
     max-width: 40em;
     border: 1px solid darkslategray;
     flex-direction: column;
+    justify-content: space-between;
     gap: 1em;
-    padding: 1em;
+    padding: 2em 1em;
     background-color: whitesmoke;
     box-shadow:inset 0 0 0.3em gray;
 }
@@ -167,6 +168,10 @@ main .about-me{
     flex-direction: column;
     gap: 1em;
     padding: 1em;
+}
+.skills-div2-child2-repsonsive{        
+    flex-direction: column;
+    gap: 3em;
 }
 .skills-div2-child2-icons img{
     margin:-1.5em;

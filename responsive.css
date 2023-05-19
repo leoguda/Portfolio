@@ -66,9 +66,6 @@
     .contact-div2-form-item{
         width: 35em;
     }
-    .main-secateur, .main-secateur1, .main-secateur2{
-        display: none;
-    }
 }
 @media only screen and (max-width:650px){
     main * {
@@ -94,7 +91,7 @@
         text-decoration: underline;
     }
     .skills-div2-child1,.skills-div2-child2{
-        height: 13em;
+        height: 15em;
         padding: 1em;
     }
 }
