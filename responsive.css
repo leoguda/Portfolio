@@ -9,7 +9,6 @@
         max-width: 30em;        
     }
 }
-
 @media only screen and (max-width:1300px){
     .skills-div2{
         flex-direction: column;
@@ -18,15 +17,14 @@
         max-width: 30em;        
     }
     .nav-li a{
-        color: rgb(143, 92, 15);
         background-color: rgba(212, 212, 212, 0.959);
+        padding: 0.05em 0;
     }
     .nav-li a:hover{
         text-decoration:underline;
         font-weight: bold;
     }
 }
-
 @media only screen and (max-width:1150px){
     .nav-1920{
         font-size: 1.2em;
@@ -40,7 +38,6 @@
     }
     main .skills{
         padding: 4em 0;
-
     }
     .projects-div2-child img, .projects-div3-child img{
         max-width: 900px;
@@ -51,7 +48,6 @@
         max-width: 700px;
     }
 }
-
 @media only screen and (max-width:750px){
     .nav-1920{
         font-size: 1em;
@@ -63,10 +59,9 @@
         width: 35em;
     }
 }
-
 @media only screen and (max-width:650px){
     .burger-menu-open{
-        background-color: rgb(205, 247, 205);
+        background-color: rgb(28, 194, 28);
     }
     main .about-me{
         padding: 4em 0 2em 0;
@@ -89,7 +84,6 @@
         padding: 1em;
     }
 }
-
 @media only screen and (max-width:550px){
     main .about-me{
         margin-top: -2em;
@@ -121,15 +115,11 @@
     *{
         font-size: 0.95em;
     }
-    
     main{
         padding: 1em 0;
     }
     .nav-responsive{
         width: 5.5em;
-    }
-    .burger-menu-open{
-        background-color: lightgreen;
     }
     main .about-me{
         padding: 6em 0 2em 0;
