@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I Say Hello!</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="animation.css">
     <link rel="icon" href="media/tab-icon.png">
     <script src="https://kit.fontawesome.com/607204e404.js" crossorigin="anonymous"></script>
 </head>
@@ -14,9 +15,16 @@
     
     <header class="display">
         <div>
-            <img class="nav-background" src="media/landscape1.jpg" alt="header background">
+            
+            <img class="nav-background" src="media/landscape-1920x897.jpg" alt="header background">
+            <div class="div-little-man-hello">
+                <p class="little-man-hello">Hello! Welcome to my portfolio, here is my <a href="cv.pdf" target="_blank">CV</a></p>
+                <img class="little-man-hello-bubble bubble1" src="media/animation/thought-bubble-right.png" alt="">
+                <img class="little-man-hello-bubble bubble2" src="media/animation/thought-bubble-left.png" alt="">
+                <img class="little-man-hello-bubble bubble3" src="media/animation/thought-bubble-right.png" alt="">
+                <img class="little-man-hello-bubble bubble4" src="media/animation/thought-bubble-left.png" alt="">
+            </div>
             <nav>
-                
                 <ul class="nav-1920">
                     <li class="nav-li-1920"><a href="#about-me">levan gudavadze</a></li>
                     <li class="nav-li-1920"><a href="#skills">skills</a></li>
@@ -24,13 +32,32 @@
                     <li class="nav-li-1920"><a href="#contact">contact</a></li>
                 </ul>
             </nav>
+            
+            <div class="header-animation">
+                <div class="car">
+                    <div class="div-car-icon">
+                        <img class="car-icon" src="media/animation/jeep-128px.png" alt="jeep">
+                    </div>
+                    <div class="smoke">
+                        <img class="car-dust car-dust1" src="media/animation/smoke-16px.png" alt="smoke of moving car">
+                        <img class="car-dust car-dust2" src="media/animation/smoke-16px.png" alt="smoke of moving car">
+                        <img class="car-dust car-dust3" src="media/animation/smoke-16px.png" alt="smoke of moving car">
+                        <img class="car-dust car-dust4" src="media/animation/smoke-16px.png" alt="smoke of moving car">
+                        <img class="car-dust car-dust5" src="media/animation/smoke-16px.png" alt="smoke of moving car">
+                    </div>
+                    <div class="little-man">
+                        <img  class="little-man-wave" src="media/animation/student-24px.png" alt="student">
+                    </div>
+                </div>
+                <!-- <div class="dust"></div> -->
+            </div>
         </div>
     </header>
 
     
     <main>
         <div class="nav-responsive">
-            <img class="burger-menu-open" src="media/bar-24px.png" alt="menu" onclick="openBurgerMenu()">
+            <img class="burger-menu-open" src="media/home-64px.png" alt="menu" onclick="openBurgerMenu()">
             <ul class="nav-responsive-ul">
                 <li class="nav-li"><a href="#about-me">levan gudavadze</a></li>
                 <li class="nav-li"><a href="#skills">skills</a></li>
@@ -66,8 +93,8 @@
                 <h2>Skills and Experience</h2>
                 <p>Thinking and learning about <b>Web Development</b> has been part of my life for more than half an year. During this time I've acknowledged that experience is everything in any field of Development especially in Web.</p>
                 <div class="skills-div1-child">
-                    <p class="skill-responsive skills-link active-link" onclick="showContent('skillContent')">Skills</p>
-                    <p class="experience-responsive skills-link" onclick="showContent('experienceContent')">Experience</p>
+                    <p class="skill-responsive skills-link" onclick="showContent('experienceContent')">Skills</p>
+                    <p class="experience-responsive skills-link active-link" onclick="showContent('skillContent')">Experience</p>
                 </div>
             </div>
 

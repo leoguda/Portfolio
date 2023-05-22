@@ -68,11 +68,11 @@
     }
 }
 @media only screen and (max-width:650px){
-    main * {
+    .about-me, .skills, .projects, .contact{
         text-align: center;
     }
     .burger-menu-open{
-        background-color: rgb(28, 194, 28);
+        background-color: white;
     }
     main .about-me{
         padding: 8em 0 2em 0;
@@ -126,7 +126,10 @@
     }
 }
 @media only screen and (max-width:350px){
-    *{
+    .nav-1920 {
+        font-size: 0.55em;
+    }
+    main *{
         font-size: 0.95em;
     }
     main{

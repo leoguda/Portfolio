@@ -1,0 +1,652 @@
+
+/* HIGH RESOLUTION */
+.header-animation{    
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    overflow: hidden;
+}
+.car{
+    display: flex;
+}
+.car-icon{
+    margin-left:-150px;
+    animation-name: driving;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+@keyframes driving{
+    0%{    
+        margin-left:-150px;
+    }
+    18%{
+        margin-left:950px;
+    }
+    19%{
+        margin-left:950px;
+    }
+    80%{
+        margin-left:950px;
+    }
+    100%{
+        margin-left:2500px;
+    }
+}
+
+.car-dust{
+    position: absolute;
+    margin-top: 27px;
+    margin-left: -125px;
+    transform: scale(0.2);
+    opacity: 0;
+    animation-name: smoke;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    transform: rotate(180deg);
+}
+
+.car-dust2{
+    animation-delay: 0.7s;
+}
+.car-dust3{
+    animation-delay: 1.4s;
+}
+.car-dust4{
+    animation-delay: 2.1s;
+}
+.car-dust5{
+    animation-delay: 2.8s;
+}
+
+@keyframes smoke{
+    0%{    
+        transform: rotate(45deg) scale(0.4);
+        margin-top: 80px;
+        margin-left: -125px;
+        opacity: 0;
+    }
+    5%{
+        transform: rotate(-45deg) scale(0.6);
+        margin-top: 72px;
+        margin-left: -140px;
+        opacity: 0.4;
+    }
+    9%{
+        transform: rotate(45deg) scale(0.8);
+        margin-top: 64px;
+        margin-left: -155px;
+        opacity: 0.6;
+    }
+    12%{
+        transform: rotate(-45deg) scale(1);
+        margin-top: 57px;
+        margin-left: -170px;
+        opacity: 0.8;
+    }
+    14%{
+        transform: rotate(-45deg) scale(1.2);
+        margin-top: 43px;
+        margin-left: -185px;
+        opacity: 0.5;
+    }
+    15%{
+        opacity: 0;
+    }
+    71%{
+        opacity: 0;
+    }
+    75%{    
+        transform: rotate(45deg) scale(0.2);
+        margin-top: 80px;
+        margin-left: -125px;
+        opacity: 0.2;
+    }
+    80%{
+        transform: rotate(-45deg) scale(0.4);
+        margin-top: 72px;
+        margin-left: -140px;
+        opacity: 0.4;
+    }
+    84%{
+        transform: rotate(45deg) scale(0.6);
+        margin-top: 64px;
+        margin-left: -155px;
+        opacity: 0.6;
+    }
+    87%{
+        transform: rotate(-45deg) scale(0.8);
+        margin-top: 57px;
+        margin-left: -170px;
+        opacity: 0.8;
+    }
+    89%{
+        transform: rotate(-45deg) scale(1.2);
+        margin-top: 43px;
+        margin-left: -185px;
+        opacity: 0.5;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.little-man-wave{
+    margin-top: 28px;
+    margin-left: -75px;
+    opacity: 0;
+
+    animation-name: hello;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hello{
+    0%{
+        opacity: 0;
+    } 
+    20%{
+        opacity: 0;
+    }
+    22%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    } 
+    72%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.little-man-hello{
+    text-align: center;
+    width: 600px;
+    font-size: 2.5em;
+    padding: 0.3em;
+    border-radius: 1em;
+    opacity: 0;
+    animation-name: hello-text;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+.little-man-hello a{
+    color: blueviolet;
+}
+.little-man-hello a:hover{
+    color: white;
+}
+.div-little-man-hello{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+@keyframes hello-text{
+    0%{
+        opacity: 1;
+        margin-left: -3000px;
+    } 
+    36%{
+        opacity: 1;
+        margin-left: -3000px;
+    }
+    38%{
+        opacity: 1;
+        margin-left: 0;
+    }
+    71%{
+        opacity: 1;
+        margin-left: 0;
+
+    } 
+    72%{
+        opacity: 0;
+        margin-left: -3000px;
+    }
+    100%{
+        opacity: 0;
+        margin-left: -3000px;
+
+    }
+}
+.little-man-hello-bubble{
+    position: absolute;
+    margin-top:150px;
+    opacity: 0;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    /* background-color: rgba(255, 255, 255, 0.74); */
+    border-radius: 0.2em;
+}
+.bubble1{  
+    margin-top:600px;
+    margin-left: 250px;
+    animation-name: bubble4;
+}
+.bubble2{  
+    margin-top:350px;
+    margin-left: 350px;
+    animation-name: bubble3;
+}
+.bubble3{  
+    margin-top:250px;
+    margin-left: 140px;
+    animation-name: bubble2;
+
+}
+.bubble4{
+    margin-top:150px;
+    margin-left: 450px;
+    animation-name: bubble1;
+}
+
+@keyframes bubble4{
+    25%{
+        opacity: 0;
+    }
+    26%{
+        opacity: 1;
+    }
+    66%{
+        opacity: 1;
+    } 
+    68%{
+        opacity: 0;
+    }
+}
+@keyframes bubble3{
+    27%{
+        opacity: 0;
+    }
+    28%{
+        opacity: 1;
+    }
+    67%{
+        opacity: 1;
+    } 
+    69%{
+        opacity: 0;
+    }
+}
+@keyframes bubble2{
+    29%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    68%{
+        opacity: 1;
+    } 
+    70%{
+        opacity: 0;
+    }
+}
+@keyframes bubble1{
+    31%{
+        opacity: 0;
+    }
+    32%{
+        opacity: 1;
+    }
+    69%{
+        opacity: 1;
+    } 
+    71%{
+        opacity: 0;
+    }
+}
+/* HIGH RESOLUTION */
+
+
+@media only screen and (max-width:1800px){
+    .bubble1{  
+        margin-left: 350px;
+    }
+    .bubble2{  
+        margin-left: 450px;
+    }
+    .bubble3{  
+        margin-left: 250px;
+    
+    }
+    .bubble4{
+        margin-left: 550px;
+    }
+}
+@media only screen and (max-width:1750px){
+    .car{
+        height: 7em;
+    }
+    .bubble1{  
+        margin-top: 500px;
+        margin-left: 450px;
+    }
+    .bubble2{  
+        margin-left: 550px;
+    }
+    .bubble3{  
+        margin-left: 350px;
+    }
+    @keyframes bubble1{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 0;
+        }
+    }
+    @keyframes hello-text{
+        0%{
+            opacity: 1;
+            margin-left: -3000px;
+        } 
+        34%{
+            opacity: 1;
+            margin-left: -3000px;
+        }
+        36%{
+            opacity: 1;
+            margin-left: 0;
+        }
+        71%{
+            opacity: 1;
+            margin-left: 0;
+    
+        } 
+        72%{
+            opacity: 0;
+            margin-left: -3000px;
+        }
+        100%{
+            opacity: 0;
+            margin-left: -3000px;
+    
+        }
+    }
+}
+@media only screen and (max-width:1650px){
+    .bubble1{  
+        margin-top: 500px;
+        margin-left: 550px;
+    }
+    .bubble2{  
+        margin-top: 250px;
+        margin-left: 650px;
+    }
+    @keyframes bubble2{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 0;
+        }
+    }
+    @keyframes hello-text{
+        0%{
+            opacity: 1;
+            margin-left: -3000px;
+        } 
+        32%{
+            opacity: 1;
+            margin-left: -3000px;
+        }
+        34%{
+            opacity: 1;
+            margin-left: 0;
+        }
+        71%{
+            opacity: 1;
+            margin-left: 0;
+        } 
+        72%{
+            opacity: 0;
+            margin-left: -3000px;
+        }
+        100%{
+            opacity: 0;
+            margin-left: -3000px;
+        }
+    }
+}
+@media only screen and (max-width:1550px){
+    .bubble1{  
+        margin-top: 400px;
+        margin-left: 350px;
+    }
+    .bubble2{  
+        margin-top: 200px;
+        margin-left: 450px;
+    }
+    @keyframes driving{
+        0%{    
+            margin-left:-150px;
+        }
+        18%{
+            margin-left:750px;
+        }
+        19%{
+            margin-left:750px;
+        }
+        80%{
+            margin-left:750px;
+        }
+        100%{
+            margin-left:2500px;
+        }
+    }
+}
+@media only screen and (max-width:1350px){
+    @keyframes driving{
+        0%{    
+            margin-left:-150px;
+        }
+        18%{
+            margin-left:650px;
+        }
+        19%{
+            margin-left:650px;
+        }
+        80%{
+            margin-left:650px;
+        }
+        100%{
+            margin-left:2500px;
+        }
+    }
+}
+@media only screen and (max-width:1200px){
+    .bubble1{  
+        margin-top: 200px;
+        margin-left: 450px;
+    }
+    @keyframes bubble3{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 0;
+        }
+    }
+    @keyframes hello-text{
+        0%{
+            opacity: 1;
+            margin-left: -3000px;
+        } 
+        29%{
+            opacity: 1;
+            margin-left: -3000px;
+        }
+        30%{
+            opacity: 1;
+            margin-left: 0;
+        }
+        71%{
+            opacity: 1;
+            margin-left: 0;
+    
+        } 
+        72%{
+            opacity: 0;
+            margin-left: -3000px;
+        }
+        100%{
+            opacity: 0;
+            margin-left: -3000px;
+    
+        }
+    }
+}
+@media only screen and (max-width:1000px){
+    @keyframes driving{
+        0%{    
+            margin-left:-150px;
+        }
+        18%{
+            margin-left:550px;
+        }
+        19%{
+            margin-left:550px;
+        }
+        80%{
+            margin-left:550px;
+        }
+        100%{
+            margin-left:2500px;
+        }
+    }
+}
+@media only screen and (max-width:900px){
+    .little-man-hello{
+        font-size: 1.5em;
+    }
+    .car{
+        height: 6em;
+        transform: scale(0.8);
+    }
+    @keyframes bubble4{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 0;
+        }
+    }
+    @keyframes driving{
+        0%{    
+            margin-left:-250px;
+        }
+        18%{
+            margin-left:350px;
+        }
+        19%{
+            margin-left:350px;
+        }
+        80%{
+            margin-left:350px;
+        }
+        100%{
+            margin-left:2500px;
+        }
+    }
+}
+@media only screen and (max-width:900px){
+    .car{
+        height: 5.5em;
+        transform: scale(0.8);
+    }
+    .car-icon{
+        margin-left:-250px;
+    }
+}
+@media only screen and (max-width:700px){
+    .car-icon{
+        margin-left:-350px;
+    }
+    @keyframes driving{
+        0%{    
+            margin-left:-350px;
+        }
+        18%{
+            margin-left:250px;
+        }
+        19%{
+            margin-left:250px;
+        }
+        80%{
+            margin-left:250px;
+        }
+        100%{
+            margin-left:2500px;
+        }
+    }
+}
+@media only screen and (max-width:500px){
+    .little-man-hello{
+        font-size: 1em;
+    }
+    .car-icon{
+        margin-left:-550px;
+    }
+    @keyframes driving{
+        0%{    
+            margin-left:-550px;
+        }
+        18%{
+            margin-left:150px;
+        }
+        19%{
+            margin-left:150px;
+        }
+        80%{
+            margin-left:150px;
+        }
+        100%{
+            margin-left:2500px;
+        }
+    }
+}
+@media only screen and (max-width:350px){
+    .car-icon{
+        display: none;
+    }
+    @keyframes hello-text{
+    0%{
+        opacity: 1;
+        margin-left: -3000px;
+    } 
+    6%{
+        opacity: 1;
+        margin-left: -3000px;
+    }
+    8%{
+        opacity: 1;
+        margin-left: 0;
+    }
+    91%{
+        opacity: 1;
+        margin-left: 0;
+    } 
+    92%{
+        opacity: 0;
+        margin-left: -3000px;
+    }
+    100%{
+        opacity: 0;
+        margin-left: -3000px;
+
+    }
+    }
+}
