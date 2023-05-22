@@ -109,7 +109,7 @@
         width: 8em;
     }
     .skills-div2-child1,.skills-div2-child2{
-        height: 16.5em;
+        height: 18.5em;
     }
     .skills-content{
         max-width: 20em;;
@@ -153,5 +153,15 @@
     }
     .contact-div2-form input{
         padding: 0.3em;
+    }
+}
+@media only screen and (max-width:250px){
+    .skills-div2-child1,.skills-div2-child2{
+        height: 19.5em;
+    }
+}
+@media only screen and (max-width:200px){
+    .skills-div2-child1,.skills-div2-child2{
+        height: 28.5em;
     }
 }
