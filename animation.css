@@ -227,7 +227,6 @@
     opacity: 0;
     animation-duration: 25s;
     animation-iteration-count: infinite;
-    /* background-color: rgba(255, 255, 255, 0.74); */
     border-radius: 0.2em;
 }
 .bubble1{  
@@ -572,6 +571,9 @@
     }
 }
 @media only screen and (max-width:700px){
+    .little-man-hello{
+        width: 300px;
+    }
     .car-icon{
         margin-left:-350px;
     }
@@ -596,6 +598,7 @@
 @media only screen and (max-width:500px){
     .little-man-hello{
         font-size: 1em;
+        width: 200px;
     }
     .car-icon{
         margin-left:-550px;
