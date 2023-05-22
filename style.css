@@ -1,11 +1,24 @@
 html{
     scroll-behavior: smooth;
 }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: '3d_unicode','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@font-face{
+    font-family: '3d_unicode';
+    src: url(3d_unicode.ttf);
+}
+@font-face{
+    font-family: GAJubo-Regular;
+    src: url(GAJubo-Regular.otf);
+}
+
+.font {
+    font-family: GAdzen-Regular;
 }
 
 /*  */
@@ -268,11 +281,11 @@ main .about-me{
     height: 15em;
     background-color: #343a40;    
 }
-.footer-div a{
+.footer-div-child-a{
     text-decoration: none;
     margin: 1em;
 }
-.footer-div a img{
+.footer-icons{
     width: 2.5em;
     height: 2.5em;
 }

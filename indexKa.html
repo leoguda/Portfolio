@@ -13,7 +13,7 @@
 </head>
 <body>
     
-    <header class="display">
+    <header class="font display">
         <div>
             <img class="nav-background" src="media/landscape-1920x897.jpg" alt="header background">
             <div class="div-little-man-hello">
@@ -54,7 +54,7 @@
     </header>
 
     
-    <main>
+    <main class="font">
         <div class="nav-responsive">
             <img class="burger-menu-open" src="media/home-64px.png" alt="menu" onclick="openBurgerMenu()">
             <ul class="nav-responsive-ul">
@@ -63,7 +63,7 @@
                 <li class="nav-li"><a href="#projects">პროექტები</a></li>
                 <li class="nav-li"><a href="#contact">კონტაქტი</a></li>
                 <img class="burger-menu-close" src="media/close-24px.png" alt="menu" onclick="closeBurgerMenu()"">
-
+                <a href="index.html"><img src="media/eng.png" alt="ka"></a>
             </ul>
         </div> 
         
@@ -71,7 +71,7 @@
             <div class="about-me-div1 display">
                 <h2>გამარჯობა,</h2>
                 <p>ჩემი სახელია ლევან გუდავაძე,
-                    თუმცა შეგიძლიათ ლეო დამიძახოთ.
+                    თუმცა, შეგიძლიათ ლეო დამიძახოთ.
                     ამჟამად, 22წლის ვარ
                     და
                     ძირითადად ვორიენტირდები კოდის წერაზე.</p>
@@ -171,19 +171,22 @@
     </main>
     
 
-    <footer>
+    <footer  class="font">
         <div class="footer-div display">
             <div class="footer-div-child">
-                <a href="https://github.com/leoguda" target="_blank">
-                    <img class="footer-icons-github" src="media/github.svg" alt="github svg" onmouseover="hover()" onmouseout="noHover()">
+                <a class="footer-div-child-a" href="https://github.com/leoguda" target="_blank">
+                    <img class="footer-icons footer-icons-github" src="media/github.svg" alt="github svg" onmouseover="hover()" onmouseout="noHover()">
                 </a> 
-                <a href="https://www.facebook.com/profile.php?id=100027512271124" target="_blank">
-                    <img class="footer-icons-fb" src="media/facebook.svg" alt="github svg" onmouseover="hover()" onmouseout="noHover()">
+                <a class="footer-div-child-a" href="https://www.facebook.com/profile.php?id=100027512271124" target="_blank">
+                    <img class="footer-icons footer-icons-fb" src="media/facebook.svg" alt="github svg" onmouseover="hover()" onmouseout="noHover()">
                 </a>                
-                <a href="https://www.linkedin.com/in/levan-gudavadze-b45b3b276/" target="_blank">
-                    <img class="footer-icons-linkedin" src="media/linkedin-in.svg" alt="github svg" onmouseover="hover()" onmouseout="noHover()">
+                <a class="footer-div-child-a" href="https://www.linkedin.com/in/levan-gudavadze-b45b3b276/" target="_blank">
+                    <img class="footer-icons footer-icons-linkedin" src="media/linkedin-in.svg" alt="github svg" onmouseover="hover()" onmouseout="noHover()">
                 </a>
             </div>
+            <a href="index.html">
+                <img src="media/eng.png" alt="eng" onmouseover="hover()" onmouseout="noHover()">
+            </a>
         </div>
     </footer>
 
