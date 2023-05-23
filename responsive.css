@@ -104,6 +104,10 @@
     }
     .nav-1920{
         font-size: 0.7em;
+        gap: 1em;
+    }
+    .nav-li-1920 a{
+        letter-spacing: 1px;
     }
     .nav-responsive{
         width: 8em;
@@ -155,12 +159,24 @@
         padding: 0.3em;
     }
 }
+@media only screen and (max-width:280px){
+    .nav-1920{
+        gap: 0.1em;
+        right: 1em;
+    }
+    .nav-li-1920 a{
+        letter-spacing: 0px;
+    }
+}
 @media only screen and (max-width:250px){
     .skills-div2-child1,.skills-div2-child2{
         height: 19.5em;
     }
 }
 @media only screen and (max-width:200px){
+    .nav-1920{
+        right: 0em;
+    }
     .skills-div2-child1,.skills-div2-child2{
         height: 28.5em;
     }

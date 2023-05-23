@@ -6,9 +6,9 @@ html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: '3d_unicode','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'GAdzen-Regular','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-@font-face{
+/* @font-face{
     font-family: '3d_unicode';
     src: url(3d_unicode.ttf);
 }
@@ -19,7 +19,7 @@ html{
 
 .font {
     font-family: GAdzen-Regular;
-}
+} */
 
 /*  */
 /*  */
@@ -59,11 +59,14 @@ header > div nav {
     right: 2em;
 }
 .nav-li-1920{
-   list-style: square;
+   /* list-style: square; */
+   list-style: none;
 }
 .nav-li-1920 a{
+    letter-spacing: 2px;
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 .nav-li-1920 a:hover{
     color: whitesmoke;

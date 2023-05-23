@@ -33,7 +33,38 @@
         margin-left:2500px;
     }
 }
-
+.car-icon-wheel{
+    position: absolute;
+    animation-name: wheel-rotate;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+.car-icon-wheel1{
+    margin-top:68.5px;
+    margin-left: -41px;
+}
+.car-icon-wheel2{
+    margin-top:68.5px;
+    margin-left: -105px;
+}
+@keyframes wheel-rotate{
+    0%{    
+        transform: rotate(0deg);
+    }
+    18%{
+        transform: rotate(1440deg);
+    }
+    19%{
+        transform: rotate(1440deg);
+    }
+    80%{
+        transform: rotate(1440deg);
+    }
+    100%{
+        transform: rotate(2880deg);
+    }
+}
 .car-dust{
     position: absolute;
     margin-top: 27px;
