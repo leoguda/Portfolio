@@ -41,6 +41,10 @@
     .projects-div2-child img, .projects-div3-child img{
         max-width: 900px;
     }
+    .projects ul li{
+        margin-left: 3em;
+        list-style: url(media/school-supplies.png);
+    }
 }
 @media only screen and (max-width:950px){
     .burger-menu-close{
@@ -71,6 +75,9 @@
     .about-me, .skills, .projects, .contact{
         text-align: center;
     }
+    .projects ul li{
+        text-align: start;
+    }
     .burger-menu-open{
         background-color: white;
     }
@@ -90,10 +97,11 @@
     .active-link{
         text-decoration: underline;
     }
-    .skills-div2-child1,.skills-div2-child2{
+    /* .skills-div2-child1,.skills-div2-child2{
         height: 15em;
         padding: 1em;
-    }
+    } */
+    
 }
 @media only screen and (max-width:550px){
     .nav-responsive{
@@ -112,9 +120,7 @@
     .nav-responsive{
         width: 8em;
     }
-    .skills-div2-child1,.skills-div2-child2{
-        height: 18.5em;
-    }
+   
     .skills-content{
         max-width: 20em;;
     }
@@ -145,12 +151,10 @@
     main .about-me{
         padding: 8em 0 2em 0;
     }
-    .skills-div2-child1,.skills-div2-child2{
-        height: 17.5em;
-    }
+   
+    
     .skills-div2-child2-icons img{
-        margin: 0 -3em;
-        transform: scale(0.3);
+       max-width: 48px;
     }
     .contact-div2-form-item{
         width: 15em;
@@ -169,15 +173,14 @@
     }
 }
 @media only screen and (max-width:250px){
-    .skills-div2-child1,.skills-div2-child2{
+    /* .skills-div2-child1,.skills-div2-child2{
         height: 19.5em;
-    }
+    } */
+   
 }
 @media only screen and (max-width:200px){
     .nav-1920{
         right: 0em;
     }
-    .skills-div2-child1,.skills-div2-child2{
-        height: 28.5em;
-    }
+   
 }

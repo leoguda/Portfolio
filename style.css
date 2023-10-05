@@ -172,7 +172,7 @@ main .about-me{
 }
 .skills-div2-child1,.skills-div2-child2{
     max-width: 40em;
-    border: 1px solid darkslategray;
+    /* border: 1px solid darkslategray; */
     flex-direction: column;
     justify-content: space-between;
     gap: 1em;
@@ -190,8 +190,8 @@ main .about-me{
     gap: 3em;
 }
 .skills-div2-child2-icons img{
-    margin:-1.5em;
-    transform: scale(0.5);
+    /* margin:-1.5em; */
+    /* transform: scale(0.5); */
 }
 /* End - skill */
 
@@ -203,17 +203,24 @@ main .about-me{
     gap: 2em;
     background-color: whitesmoke;
 }
-.projects-div2, .projects-div3{
+.projects h4{
+    padding: 1em 0;
+    text-decoration: underline;
+}
+.projects ul li{
+    list-style: url(media/school-supplies24.png);
+}
+.projects-divs{
     overflow: hidden;
     /* border: 1px solid rgba(0, 0, 0, 0.336); */
     box-shadow: 0 0 10px grey;
 }
-.projects-div2-child img, .projects-div3-child img{
+.projects-divs-child img{
     max-width: 1100px;
     width: 100%;
     transition: transform 200ms; 
 }
-.projects-div2-child img:hover, .projects-div3-child img:hover{
+.projects-divs-child img:hover{
     transform: scale(1.05);
 }
 .projects-div1{
