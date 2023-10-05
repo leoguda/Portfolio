@@ -6,20 +6,24 @@ html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'GAdzen-Regular','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: bpg,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-/* @font-face{
-    font-family: '3d_unicode';
+ @font-face{
+    font-family: 3d_unicode;
     src: url(3d_unicode.ttf);
 }
 @font-face{
     font-family: GAJubo-Regular;
     src: url(GAJubo-Regular.otf);
 }
+@font-face{
+    font-family: bpg;
+    src: url(bpg_extrasquare_mtavruli_2009.ttf);
+}
 
-.font {
+/* .font {
     font-family: GAdzen-Regular;
-} */
+}  */
 
 /*  */
 /*  */
@@ -32,7 +36,7 @@ header {
 }
 header *{
     text-transform: uppercase;
-    font-family: fantasy;
+    /* font-family: fantasy; */
 }
 header > div{
     max-height: 900px;
@@ -59,7 +63,6 @@ header > div nav {
     right: 2em;
 }
 .nav-li-1920{
-   /* list-style: square; */
    list-style: none;
 }
 .nav-li-1920 a{
@@ -70,7 +73,6 @@ header > div nav {
 }
 .nav-li-1920 a:hover{
     color: whitesmoke;
-
 }
 
 /* End - Header */
@@ -83,7 +85,6 @@ main{
     margin-top: -220px;
 }
 main *{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 1.3em;
 }
 
@@ -96,7 +97,7 @@ main *{
     width: 10em;
 }
 .nav-responsive-ul{
-    transform: translateY(-270px);
+    transform: translateY(-300px);
     transition: transform 300ms;
 }
 .burger-menu-open,
@@ -188,10 +189,6 @@ main .about-me{
 .skills-div2-child2-repsonsive{        
     flex-direction: column;
     gap: 3em;
-}
-.skills-div2-child2-icons img{
-    /* margin:-1.5em; */
-    /* transform: scale(0.5); */
 }
 /* End - skill */
 
@@ -289,7 +286,7 @@ main .about-me{
     justify-content: center;
     align-items: center;
     height: 15em;
-    background-color: #343a40;    
+    background-color: #bfbfbf;    
 }
 .footer-div-child-a{
     text-decoration: none;

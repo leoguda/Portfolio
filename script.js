@@ -8,7 +8,7 @@ function openBurgerMenu(){
     event.currentTarget.style.display="none";
 }
 function closeBurgerMenu(){
-    navUl.style.transform = 'translateY(-270px)'
+    navUl.style.transform = 'translateY(-300px)'
     open.style.display="block";
 }
 // End - responsive nav
